@@ -1,0 +1,124 @@
+ [
+    {
+  "instruction": "Explain underfitting",
+  "output": "Simple Explanation:\nUnderfitting happens when a model is too simple to learn the data.\n\nStep-by-Step:\n1. Model is trained\n2. It cannot capture patterns\n3. Performs poorly on training data\n4. Also performs poorly on new data\n\nExample:\nTrying to fit a straight line to curved data.\n\nKey Idea:\nModel is too simple to learn meaningful patterns."
+},
+
+    {
+  "instruction": "Explain gradient descent",
+  "output": "Simple Explanation:\nGradient descent is a method used to find the lowest point of a function.\n\nStep-by-Step:\n1. Start with an initial guess\n2. Calculate the slope (gradient)\n3. Move in the opposite direction of the slope\n4. Repeat until you reach a minimum\n\nExample:\nLike walking downhill until you reach the bottom of a valley.\n\nKey Idea:\nMove in the direction that reduces error the fastest."
+},
+
+    {
+  "instruction": "What is a neural network?",
+  "output": "Simple Explanation:\nA neural network is a system inspired by the brain that learns patterns from data.\n\nStep-by-Step:\n1. Input data is fed into the network\n2. Data passes through layers of neurons\n3. Each neuron processes the data\n4. The output is produced\n\nExample:\nRecognizing handwritten digits from images.\n\nKey Idea:\nLayers of simple units combine to learn complex patterns."
+},
+    {
+  "instruction": "Explain overfitting",
+  "output": "Simple Explanation:\nOverfitting happens when a model learns the training data too well, including noise.\n\nStep-by-Step:\n1. Model is trained on data\n2. It memorizes details instead of general patterns\n3. Performs well on training data\n4. Performs poorly on new data\n\nExample:\nMemorizing answers to a test instead of understanding concepts.\n\nKey Idea:\nGood training performance does not guarantee good generalization."
+},
+
+    {
+  "instruction": "Explain backpropagation",
+  "output": "Simple Explanation:\nBackpropagation is a method used to update a neural network’s weights.\n\nStep-by-Step:\n1. Make a prediction\n2. Calculate error\n3. Send error backward through the network\n4. Adjust weights to reduce error\n\nExample:\nCorrecting mistakes after checking answers.\n\nKey Idea:\nErrors flow backward to improve the model."
+},
+
+    {
+  "instruction": "What is a robot sensor?",
+  "output": "Simple Explanation:\nA sensor helps a robot detect and understand its environment.\n\nStep-by-Step:\n1. Sensor collects data\n2. Converts it into signals\n3. Robot processes the signals\n4. Robot reacts accordingly\n\nExample:\nA camera acting as the robot’s eyes.\n\nKey Idea:\nSensors allow robots to perceive the world."
+ },
+
+  {
+  "instruction": "What is an actuator?",
+  "output": "Simple Explanation:\nAn actuator is a part of a robot that causes movement.\n\nStep-by-Step:\n1. Receive a control signal\n2. Convert energy into motion\n3. Move a part of the robot\n\nExample:\nA motor that turns a wheel.\n\nKey Idea:\nActuators = movement in robots."
+},
+
+  {
+  "instruction": "Explain reinforcement learning",
+  "output": "Simple Explanation:\nReinforcement learning is learning by trial and error using rewards.\n\nStep-by-Step:\n1. Take an action\n2. Receive reward or punishment\n3. Learn from feedback\n4. Improve decisions over time\n\nExample:\nTraining a dog with treats.\n\nKey Idea:\nLearn by maximizing rewards."
+},
+
+    {
+  "instruction": "What is supervised learning?",
+  "output": "Simple Explanation:\nSupervised learning uses labeled data to train a model.\n\nStep-by-Step:\n1. Provide input-output pairs\n2. Model learns mapping\n3. Predict outputs for new inputs\n\nExample:\nLearning from flashcards with correct answers.\n\nKey Idea:\nLearning with guidance."
+},
+
+  {
+  "instruction": "What is unsupervised learning?",
+  "output": "Simple Explanation:\nUnsupervised learning finds patterns in data without labels.\n\nStep-by-Step:\n1. Input raw data\n2. Model searches for structure\n3. Groups or organizes data\n\nExample:\nGrouping similar photos together.\n\nKey Idea:\nLearning without answers."
+},
+
+    {
+  "instruction": "What is a loss function?",
+  "output": "Simple Explanation:\nA loss function measures how wrong a model’s predictions are.\n\nStep-by-Step:\n1. Make prediction\n2. Compare with actual value\n3. Compute error\n\nExample:\nDifference between predicted and real price.\n\nKey Idea:\nLoss tells the model how bad it is."
+},
+
+  {
+  "instruction": "What is an activation function?",
+  "output": "Simple Explanation:\nAn activation function decides whether a neuron should activate.\n\nStep-by-Step:\n1. Input enters neuron\n2. Multiply by weights\n3. Apply activation function\n\nExample:\nReLU turning negative values into zero.\n\nKey Idea:\nAdds non-linearity to the network."
+},
+
+  {
+  "instruction": "What is ReLU?",
+  "output": "Simple Explanation:\nReLU is an activation function that outputs zero for negative inputs.\n\nStep-by-Step:\n1. Take input value\n2. If negative → output 0\n3. If positive → keep value\n\nExample:\nTurning off negative signals.\n\nKey Idea:\nSimple and efficient activation function."
+},
+
+{
+  "instruction": "What is tokenization?",
+  "output": "Simple Explanation:\nTokenization breaks text into smaller pieces called tokens.\n\nStep-by-Step:\n1. Input sentence\n2. Split into words or subwords\n3. Convert to numbers\n\nExample:\n\"Hello world\" → [\"Hello\", \"world\"]\n\nKey Idea:\nText must be converted into numbers for models."
+},
+
+  {
+  "instruction": "What are embeddings?",
+  "output": "Simple Explanation:\nEmbeddings are numerical representations of words or data.\n\nStep-by-Step:\n1. Convert word into vector\n2. Capture meaning in numbers\n3. Similar words have similar vectors\n\nExample:\n\"king\" and \"queen\" have similar embeddings.\n\nKey Idea:\nMeaning represented as numbers."
+},
+
+    {
+  "instruction": "What is a transformer model?",
+  "output": "Simple Explanation:\nA transformer is a model that processes sequences using attention.\n\nStep-by-Step:\n1. Input tokens\n2. Compute attention scores\n3. Focus on important words\n\nExample:\nUnderstanding sentence context.\n\nKey Idea:\nAttention helps understand relationships."
+},
+    {
+  "instruction": "Explain attention mechanism",
+  "output": "Simple Explanation:\nAttention helps a model focus on important parts of input.\n\nStep-by-Step:\n1. Compare all words\n2. Assign importance scores\n3. Focus on relevant ones\n\nExample:\nFocusing on key words in a sentence.\n\nKey Idea:\nNot all inputs are equally important."
+},
+    {
+  "instruction": "What is path planning?",
+  "output": "Simple Explanation:\nPath planning is finding a route from start to goal.\n\nStep-by-Step:\n1. Define start and goal\n2. Detect obstacles\n3. Compute best path\n\nExample:\nGPS finding the shortest route.\n\nKey Idea:\nEfficient navigation."
+},
+
+    {
+  "instruction": "What is SLAM?",
+  "output": "Simple Explanation:\nSLAM means building a map while tracking position.\n\nStep-by-Step:\n1. Collect sensor data\n2. Estimate position\n3. Build map\n4. Update continuously\n\nExample:\nA robot mapping a room while moving.\n\nKey Idea:\nMapping + localization together."
+},
+
+    {
+  "instruction": "What is fine-tuning?",
+  "output": "Simple Explanation:\nFine-tuning adjusts a pretrained model for a specific task.\n\nStep-by-Step:\n1. Start with pretrained model\n2. Train on new data\n3. Adapt behavior\n\nExample:\nCustom chatbot for robotics.\n\nKey Idea:\nSpecializing a general model."
+},
+
+    {
+  "instruction": "What is classification?",
+  "output": "Simple Explanation:\nClassification assigns inputs to categories.\n\nStep-by-Step:\n1. Input data\n2. Analyze features\n3. Assign label\n\nExample:\nSpam vs not spam.\n\nKey Idea:\nSorting into classes."
+},
+
+    {
+  "instruction": "What is regression?",
+  "output": "Simple Explanation:\nRegression predicts continuous values.\n\nStep-by-Step:\n1. Input data\n2. Learn relationship\n3. Predict number\n\nExample:\nPredicting house prices.\n\nKey Idea:\nPredicting numbers."
+},
+
+    {
+  "instruction": "What is a control system?",
+  "output": "Simple Explanation:\nA control system manages a robot’s behavior.\n\nStep-by-Step:\n1. Measure state\n2. Compare to goal\n3. Adjust actions\n\nExample:\nCruise control in a car.\n\nKey Idea:\nMaintain desired behavior."
+},
+
+    {
+  "instruction": "What is localization in robotics?",
+  "output": "Simple Explanation:\nLocalization is finding where a robot is.\n\nStep-by-Step:\n1. Collect sensor data\n2. Compare with map\n3. Estimate position\n\nExample:\nGPS for robots.\n\nKey Idea:\nKnowing position."
+},
+
+    {
+  "instruction": "What is a drone?",
+  "output": "Simple Explanation:\nA drone is a flying robot controlled remotely or autonomously.\n\nStep-by-Step:\n1. Receive commands\n2. Use sensors\n3. Control motors\n\nExample:\nQuadcopter camera drone.\n\nKey Idea:\nFlying autonomous robot."
+}
+
+]
