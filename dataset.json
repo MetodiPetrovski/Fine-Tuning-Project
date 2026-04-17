@@ -119,6 +119,104 @@
     {
   "instruction": "What is a drone?",
   "output": "Simple Explanation:\nA drone is a flying robot controlled remotely or autonomously.\n\nStep-by-Step:\n1. Receive commands\n2. Use sensors\n3. Control motors\n\nExample:\nQuadcopter camera drone.\n\nKey Idea:\nFlying autonomous robot."
-}
+},
+  {
+"instruction": "What is regularization?",
+"output": "Simple Explanation:\nRegularization helps prevent overfitting by simplifying the model.\n\nStep-by-Step:\n1. Train model\n2. Add penalty for complexity\n3. Reduce large weights\n\nExample:\nAdding a rule to avoid memorizing data.\n\nKey Idea:\nKeep the model simple."
+},
 
+  {
+"instruction": "What is L2 regularization?",
+"output": "Simple Explanation:\nL2 regularization penalizes large weights.\n\nStep-by-Step:\n1. Calculate loss\n2. Add squared weights penalty\n3. Update weights\n\nExample:\nKeeping weights small to avoid overfitting.\n\nKey Idea:\nSmaller weights = simpler model."
+},
+
+  {
+"instruction": "What is L1 regularization?",
+"output": "Simple Explanation:\nL1 regularization pushes some weights to zero.\n\nStep-by-Step:\n1. Add absolute value penalty\n2. Reduce less important weights\n\nExample:\nFeature selection in models.\n\nKey Idea:\nCreates sparse models."
+},
+  
+  {
+"instruction": "What is a decision tree?",
+"output": "Simple Explanation:\nA decision tree splits data based on rules.\n\nStep-by-Step:\n1. Choose feature\n2. Split data\n3. Repeat until decision\n\nExample:\nYes/no questions to classify data.\n\nKey Idea:\nTree-like decisions."
+},
+
+  {
+"instruction": "What is a random forest?",
+"output": "Simple Explanation:\nA random forest combines many decision trees.\n\nStep-by-Step:\n1. Train multiple trees\n2. Each makes prediction\n3. Combine results\n\nExample:\nVoting among many trees.\n\nKey Idea:\nMany weak models make a strong one."
+},
+  {
+"instruction": "What is a support vector machine?",
+"output": "Simple Explanation:\nSVM separates data using a boundary.\n\nStep-by-Step:\n1. Find best boundary\n2. Maximize margin\n3. Classify points\n\nExample:\nDrawing a line between groups.\n\nKey Idea:\nClear separation of classes."
+},
+{
+"instruction": "What is k-means clustering?",
+"output": "Simple Explanation:\nk-means groups similar data points.\n\nStep-by-Step:\n1. Choose k clusters\n2. Assign points\n3. Update centers\n4. Repeat\n\nExample:\nGrouping customers by behavior.\n\nKey Idea:\nClustering based on similarity."
+},
+  {
+"instruction": "What is PCA?",
+"output": "Simple Explanation:\nPCA reduces data dimensions.\n\nStep-by-Step:\n1. Find important directions\n2. Project data\n3. Reduce features\n\nExample:\nCompressing data while keeping info.\n\nKey Idea:\nSimplify data."
+},
+  {
+"instruction": "What is a dataset?",
+"output": "Simple Explanation:\nA dataset is a collection of data used for training.\n\nStep-by-Step:\n1. Collect data\n2. Organize it\n3. Use for training\n\nExample:\nImages for classification.\n\nKey Idea:\nData is the foundation of ML."
+},
+  {
+"instruction": "What is a feature?",
+"output": "Simple Explanation:\nA feature is an input variable used by a model.\n\nStep-by-Step:\n1. Collect data\n2. Extract features\n3. Feed into model\n\nExample:\nHeight and weight in prediction.\n\nKey Idea:\nFeatures describe data."
+},
+  {
+"instruction": "What is a label?",
+"output": "Simple Explanation:\nA label is the correct output for data.\n\nStep-by-Step:\n1. Input data\n2. Assign correct answer\n3. Train model\n\nExample:\nSpam or not spam.\n\nKey Idea:\nLabels guide learning."
+},
+  {
+"instruction": "What is training data?",
+"output": "Simple Explanation:\nTraining data is used to teach the model.\n\nStep-by-Step:\n1. Provide examples\n2. Learn patterns\n\nExample:\nImages used to train classifier.\n\nKey Idea:\nLearning happens here."
+},
+  {
+"instruction": "What is test data?",
+"output": "Simple Explanation:\nTest data checks model performance.\n\nStep-by-Step:\n1. Train model\n2. Test on new data\n\nExample:\nExam after studying.\n\nKey Idea:\nMeasures generalization."
+},
+ {
+"instruction": "What is validation data?",
+"output": "Simple Explanation:\nValidation data helps tune the model.\n\nStep-by-Step:\n1. Train model\n2. Validate performance\n3. Adjust parameters\n\nExample:\nPractice test.\n\nKey Idea:\nImprove model before final test."
+},
+  {
+"instruction": "What is batch size?",
+"output": "Simple Explanation:\nBatch size is how many samples are used per step.\n\nStep-by-Step:\n1. Split data into batches\n2. Train on each batch\n\nExample:\nStudying in small chunks.\n\nKey Idea:\nControls training speed and memory."
+},
+  {
+"instruction": "What is an epoch?",
+"output": "Simple Explanation:\nAn epoch is one full pass through the dataset.\n\nStep-by-Step:\n1. Go through all data\n2. Update model\n\nExample:\nReading a book once.\n\nKey Idea:\nTraining cycles."
+},
+  {
+"instruction": "What is learning rate?",
+"output": "Simple Explanation:\nLearning rate controls how big updates are.\n\nStep-by-Step:\n1. Calculate gradient\n2. Update weights\n\nExample:\nTaking small vs big steps downhill.\n\nKey Idea:\nToo big = unstable, too small = slow."
+},
+ {
+"instruction": "What is inference?",
+"output": "Simple Explanation:\nInference is using a trained model to make predictions.\n\nStep-by-Step:\n1. Input data\n2. Model predicts output\n\nExample:\nUsing a trained chatbot.\n\nKey Idea:\nApplying learned knowledge."
+},
+{
+"instruction": "What is a model?",
+"output": "Simple Explanation:\nA model is a system that learns patterns.\n\nStep-by-Step:\n1. Train on data\n2. Learn relationships\n\nExample:\nPredicting prices.\n\nKey Idea:\nLearns from data."
+},
+  {
+"instruction": "What is a parameter?",
+"output": "Simple Explanation:\nParameters are values learned by the model.\n\nStep-by-Step:\n1. Initialize\n2. Update during training\n\nExample:\nWeights in neural networks.\n\nKey Idea:\nModel knowledge."
+},
+  {"instruction":"What is variance in ML?","output":"Simple Explanation:\nVariance is sensitivity to data changes.\n\nStep-by-Step:\n1. Model changes with data\n2. Leads to instability\n\nExample:\nOverfitting.\n\nKey Idea:\nToo flexible model."},
+  {"instruction":"What is dropout?","output":"Simple Explanation:\nDropout randomly disables neurons during training.\n\nStep-by-Step:\n1. Drop neurons\n2. Train network\n\nExample:\nPreventing over-reliance.\n\nKey Idea:\nReduces overfitting."},
+  {"instruction":"What is a robot?","output":"Simple Explanation:\nA robot is a machine that performs tasks automatically.\n\nStep-by-Step:\n1. Sense\n2. Decide\n3. Act\n\nExample:\nFactory robot.\n\nKey Idea:\nAutomation."},
+  {"instruction":"What is autonomy?","output":"Simple Explanation:\nAutonomy means acting without human control.\n\nStep-by-Step:\n1. Sense\n2. Decide\n3. Act\n\nExample:\nSelf-driving car.\n\nKey Idea:\nIndependent operation."},
+  {"instruction":"What is computer vision?","output":"Simple Explanation:\nComputer vision lets machines see.\n\nStep-by-Step:\n1. Capture image\n2. Process\n3. Understand\n\nExample:\nFace recognition.\n\nKey Idea:\nVisual understanding."},
+  {"instruction":"What is a neural layer?","output":"Simple Explanation:\nA layer processes data in a network.\n\nStep-by-Step:\n1. Receive input\n2. Apply weights\n\nExample:\nHidden layers.\n\nKey Idea:\nBuilding blocks."},
+  {"instruction":"What is data preprocessing?","output":"Simple Explanation:\nPreparing data before training.\n\nStep-by-Step:\n1. Clean\n2. Normalize\n\nExample:\nRemoving noise.\n\nKey Idea:\nBetter data = better model."},
+  {"instruction":"What is normalization?","output":"Simple Explanation:\nScaling data to a range.\n\nStep-by-Step:\n1. Compute scale\n2. Transform data\n\nExample:\n0–1 scaling.\n\nKey Idea:\nStable training."},
+  {"instruction":"What is augmentation?","output":"Simple Explanation:\nCreating more data from existing data.\n\nStep-by-Step:\n1. Modify data\n2. Add variations\n\nExample:\nRotating images.\n\nKey Idea:\nMore data improves models."},
+  {"instruction":"What is robotics control?","output":"Simple Explanation:\nControlling robot movement.\n\nStep-by-Step:\n1. Measure state\n2. Adjust actions\n\nExample:\nBalancing robot.\n\nKey Idea:\nStable behavior."},
+  {"instruction":"What is simulation?","output":"Simple Explanation:\nTesting robots in virtual environments.\n\nStep-by-Step:\n1. Create environment\n2. Run tests\n\nExample:\nRobot simulator.\n\nKey Idea:\nSafe testing."},
+  {"instruction":"What is transfer learning?","output":"Simple Explanation:\nUsing knowledge from one task for another.\n\nStep-by-Step:\n1. Pretrain\n2. Adapt\n\nExample:\nImage model reused.\n\nKey Idea:\nReuse knowledge."},
+  {"instruction":"What is a hyperparameter?","output":"Simple Explanation:\nSettings chosen before training.\n\nStep-by-Step:\n1. Set values\n2. Train model\n\nExample:\nLearning rate.\n\nKey Idea:\nControls training."},
+  
+  
 ]
