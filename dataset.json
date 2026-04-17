@@ -217,6 +217,4 @@
   {"instruction":"What is simulation?","output":"Simple Explanation:\nTesting robots in virtual environments.\n\nStep-by-Step:\n1. Create environment\n2. Run tests\n\nExample:\nRobot simulator.\n\nKey Idea:\nSafe testing."},
   {"instruction":"What is transfer learning?","output":"Simple Explanation:\nUsing knowledge from one task for another.\n\nStep-by-Step:\n1. Pretrain\n2. Adapt\n\nExample:\nImage model reused.\n\nKey Idea:\nReuse knowledge."},
   {"instruction":"What is a hyperparameter?","output":"Simple Explanation:\nSettings chosen before training.\n\nStep-by-Step:\n1. Set values\n2. Train model\n\nExample:\nLearning rate.\n\nKey Idea:\nControls training."},
-  
-  
-]
+  ]
