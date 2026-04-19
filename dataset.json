@@ -243,6 +243,45 @@
   {"instruction":"What is robotics planning?","output":"Simple Explanation:\nPlanning decides future actions.\n\nStep-by-Step:\n1. Define goal\n2. Plan steps\n\nExample:\nRobot path.\n\nKey Idea:\nGoal-directed behavior."},
   {"instruction":"What is sensor fusion?","output":"Simple Explanation:\nSensor fusion combines multiple sensors.\n\nStep-by-Step:\n1. Collect data\n2. Combine info\n\nExample:\nCamera + LIDAR.\n\nKey Idea:\nBetter perception."},
   {"instruction":"What is feature engineering?","output":"Simple Explanation:\nFeature engineering improves input data.\n\nStep-by-Step:\n1. Select features\n2. Transform data\n\nExample:\nAdding useful variables.\n\nKey Idea:\nBetter inputs."},
-  {"instruction":"What is cross-validation?","output":"Simple Explanation:\nCross-validation tests model reliability.\n\nStep-by-Step:\n1. Split data\n2. Train/test multiple times\n\nExample:\nRepeated testing.\n\nKey Idea:\nRobust evaluation."}
- 
+  {"instruction":"What is cross-validation?","output":"Simple Explanation:\nCross-validation tests model reliability.\n\nStep-by-Step:\n1. Split data\n2. Train/test multiple times\n\nExample:\nRepeated testing.\n\nKey Idea:\nRobust evaluation."},
+  {
+  "instruction": "What is machine learning?",
+  "output": "Simple Explanation:\nMachine learning is a method that allows computers to learn patterns from data without being explicitly programmed.\n\nStep-by-Step:\n1. Provide data to the model\n2. The model identifies patterns in the data\n3. The model improves its predictions over time\n\nExample:\nFiltering spam emails based on past examples.\n\nKey Idea:\nLearning from data instead of fixed rules."
+  },
+  {
+  "instruction": "What is a neural network?",
+  "output": "Simple Explanation:\nA neural network is a model made of layers of connected units that learn patterns in data.\n\nStep-by-Step:\n1. Input data is fed into the network\n2. Data passes through multiple layers\n3. Each layer transforms the data\n4. The final output is produced\n\nExample:\nRecognizing handwritten digits in images.\n\nKey Idea:\nStacked layers allow learning of complex patterns."
+},
+  {
+  "instruction": "What is artificial intelligence?",
+  "output": "Simple Explanation:\nArtificial intelligence is the ability of machines to perform tasks that usually require human intelligence.\n\nStep-by-Step:\n1. Collect data or rules\n2. Process information\n3. Make decisions or predictions\n\nExample:\nVoice assistants that understand and respond to speech.\n\nKey Idea:\nMachines performing intelligent tasks."
+},
+ {
+  "instruction": "What is deep learning?",
+  "output": "Simple Explanation:\nDeep learning is a type of machine learning that uses neural networks with many layers.\n\nStep-by-Step:\n1. Build a multi-layer neural network\n2. Train it on large amounts of data\n3. Learn complex patterns automatically\n\nExample:\nImage recognition systems identifying objects.\n\nKey Idea:\nMore layers enable more complex learning."
+},
+  {
+  "instruction": "What is the difference between training and inference?",
+  "output": "Simple Explanation:\nTraining is when a model learns from data, while inference is when it uses that knowledge to make predictions.\n\nStep-by-Step:\n1. Train the model using labeled data\n2. Save the learned parameters\n3. Use the model to predict new inputs\n\nExample:\nStudying for an exam versus taking the exam.\n\nKey Idea:\nLearning phase versus usage phase."
+},
+  {
+  "instruction": "What is optimization in machine learning?",
+  "output": "Simple Explanation:\nOptimization is the process of adjusting a model to reduce its error.\n\nStep-by-Step:\n1. Make predictions\n2. Calculate the loss\n3. Update model parameters\n4. Repeat the process\n\nExample:\nImproving answers by correcting mistakes over time.\n\nKey Idea:\nMinimizing error through repeated updates."
+},
+  {
+  "instruction": "What is data distribution?",
+  "output": "Simple Explanation:\nData distribution describes how data values are spread or organized.\n\nStep-by-Step:\n1. Collect data\n2. Analyze how values are distributed\n3. Identify patterns or trends\n\nExample:\nHeights of people following a normal distribution.\n\nKey Idea:\nUnderstanding how data is structured."
+},
+  {
+  "instruction": "What is the bias-variance tradeoff?",
+  "output": "Simple Explanation:\nThe bias-variance tradeoff is the balance between a model being too simple and too complex.\n\nStep-by-Step:\n1. High bias leads to underfitting\n2. High variance leads to overfitting\n3. Find a balance between the two\n\nExample:\nChoosing a model that generalizes well to new data.\n\nKey Idea:\nBalancing simplicity and flexibility."
+},
+  {
+  "instruction": "What is a feedback loop in robotics?",
+  "output": "Simple Explanation:\nA feedback loop allows a robot to adjust its actions based on the difference between its current state and a desired goal.\n\nStep-by-Step:\n1. Measure current state\n2. Compare with desired state\n3. Adjust actions\n4. Repeat continuously\n\nExample:\nA robot balancing itself using sensors.\n\nKey Idea:\nContinuous correction improves performance."
+},
+  {
+  "instruction": "What is generalization in machine learning?",
+  "output": "Simple Explanation:\nGeneralization is the ability of a model to perform well on new, unseen data.\n\nStep-by-Step:\n1. Train the model on known data\n2. Test it on unseen data\n3. Evaluate its performance\n\nExample:\nAnswering new exam questions correctly after studying.\n\nKey Idea:\nLearning patterns rather than memorizing data."
+}
 ]
