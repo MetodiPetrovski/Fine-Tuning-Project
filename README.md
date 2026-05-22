@@ -1,9 +1,14 @@
 # Robotics and ML-Tutor-LLM
 
-Robotics and ML-Tutor-LLM is an educational AI chatbot designed to explain machine learning and robotics concepts using simplified language,
-step-by-step reasoning, and worked examples.
+A fine-tuned Llama 3.2 3B chatbot specialized in robotics and machine learning education.
 
-The model is optimized for accessibility rather than purely technical precision, making it useful for beginners and intermediate learners studying topics such as gradient descent, transformers, overfitting, and backpropagation.
+Built using:
+- Unsloth + LoRA fine-tuning
+- Hugging Face Transformers
+- Gradio interface
+- VRAM monitoring tools
+
+The project explores lightweight domain-specific LLM fine-tuning for educational tutoring.
 
 The model was trained on a custom educational dataset consisting
 of approximately 100 manually curated machine learning and robotics
@@ -23,12 +28,81 @@ The dataset emphasized:
 ## Features
 
 - Step-by-step ML explanations
-- Beginner-friendly responses
-- Example-driven teaching style
-- Lightweight conversational interface
-- Failure-aware response analysis
-- Transformer-based architecture
+- Fine-tuned Llama 3.2 3B model
+- Robotics and ML tutoring focus
+- LoRA PEFT training pipeline
+- Gradio chat interface
+- VRAM usage visualization
+- Optimized for low-VRAM environments
 
+## Architecture / Workflow
+
+```text
+                 ┌──────────────────────┐
+                 │   Custom JSON Dataset │
+                 │  (Robotics + ML QA)   │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │ Dataset Formatting    │
+                 │ format_example()      │
+                 │ Instruction → Prompt  │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌──────────────────────┐
+                 │ Hugging Face Dataset │
+                 │ Dataset.from_list()  │
+                 └──────────┬───────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────────┐
+                 │ Base Model Loading          │
+                 │ Llama 3.2 3B (Unsloth)      │
+                 │ 4-bit Quantization          │
+                 └──────────┬──────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────────┐
+                 │ LoRA / PEFT Fine-Tuning     │
+                 │ q_proj, v_proj, k_proj,     │
+                 │ o_proj adaptation           │
+                 └──────────┬──────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────────┐
+                 │ SFTTrainer Training         │
+                 │ Supervised Fine-Tuning      │
+                 │ FP16 + Gradient Accum.      │
+                 └──────────┬──────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────────┐
+                 │ VRAM Monitoring Callback    │
+                 │ CUDA Memory Tracking        │
+                 │ Peak VRAM Visualization     │
+                 └──────────┬──────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────────┐
+                 │ Fine-Tuned Tutor Model      │
+                 │ Robotics + ML Assistant     │
+                 └──────────┬──────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────────┐
+                 │ Inference Pipeline          │
+                 │ Prompt Construction         │
+                 │ Tokenization + Generation   │
+                 └──────────┬──────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────────┐
+                 │ Gradio Chat Interface       │
+                 │ Interactive Web Chatbot     │
+                 └─────────────────────────────┘
+```  
 ## Example Interaction
 
 ### User
@@ -79,7 +153,15 @@ The dataset emphasized:
 >
 >Key Idea: Motion generation.
 
+## Tech Stack
 
+- Python
+- PyTorch
+- Unsloth
+- Transformers
+- PEFT / LoRA
+- Gradio
+- Matplotlib
 
 ## Failure Analysis
 
@@ -108,3 +190,12 @@ The model struggles with:
 >Key Idea: Maximizes Margin
 >
 >Machine Learning Technique
+
+## Future Improvements
+
+- Better dataset curation
+- RAG integration
+- Model evaluation benchmarks
+- Streaming responses
+- Multi-turn memory
+- Quantized deployment
