@@ -24,7 +24,7 @@ The dataset emphasized:
 
 ![Demo](demo.png)
 
-![VRAM Usage Graph](vram_graph.png)
+![VRAM Usage Graph](Vram_Usage_Graph.png)
 
 ## Features
 
